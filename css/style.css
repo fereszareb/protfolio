@@ -1,0 +1,410 @@
+
+/* USING BOOTSTRAP 3.0.3 */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  bottom: 0px;
+  min-height: 100vh;
+ 
+}
+
+body {
+  font-family: "Helvetica Neue",sans-serif;
+  font-weight: lighter;
+}
+
+header {
+  width: 100%;
+  height: 90vh;
+  background: url(../image/cover.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.contact-name{
+  color: white;
+  text-align: center;
+}
+
+.content {
+  width: 94%;
+  margin: 2em auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+.logo {
+  line-height: 60px;
+  position: fixed;
+  float: left;
+  margin: 16px 46px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-left: 15%;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 50px;
+}
+
+nav ul {
+  line-height: 40px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
+}
+
+nav.black ul {
+  background: rgba(30, 30, 30, 0.85);
+ 
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 16px;;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+nav ul li a:hover {
+  color: #ffbd2f;
+}
+.menu-icon {
+  line-height: 60px;
+  width: 100%;
+  background:rgba(30, 30, 30, 0.85);
+  text-align: right;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  cursor: pointer;
+  color: #fff;
+  display: none;
+}
+#nav_cadre_text{
+ 
+  width: 100%;
+  height: 90vh;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#nav_text{
+width: 40%;
+margin: 15% 40% 0% 0%;
+background-color: rgba(221, 221, 221, 0.192);
+display: flex;
+border-radius: 10px;
+}
+#bande{
+width: 2%;
+background-color: #ffbd2f;
+border-radius: 20px;
+}
+
+#des_text{
+width: 88%;
+padding-left: 1%;
+color: #fff;
+}
+#des_text h1 {
+font-size: 45px; 
+margin-bottom: 0px;
+}
+
+
+@media(max-width: 1015px) {
+
+
+  nav ul li {
+    padding: 16px 9px;;
+  }
+}
+
+
+
+
+@media(max-width: 903px) {
+
+  .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
+  }
+
+  nav ul {
+        max-height: 0px;
+        background: #000;
+  }
+
+  nav.black ul {
+        background: #000;
+  }
+
+  .showing {
+        max-height: 34em;
+  }
+
+  nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px;
+        text-align: center;
+  }
+
+  .menu-icon {
+        display: block;
+  }
+  #nav_text{
+    width: 80%;
+    margin: 40% 0% 0% 0%;
+  }
+  #des_text h1{
+    font-size: 20px;
+  }
+  #des_text h3{
+    font-size: 12px;
+  }
+  .pic-skil{
+    display: none;
+}
+.progress-bar{
+ width: 173% !important;
+
+}
+}
+
+#part-one{
+text-align: center;
+}
+#cadre-about{
+  padding: 12px;
+  width: 80%;
+  margin: auto;
+  
+
+  background-color: rgb(255, 255, 255);
+
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+ display: flex;
+ 
+
+}
+#pic-personel {
+float: left;
+min-width: 250px;
+max-width: 700px;
+width: 70%;
+height: auto;
+margin-right: 10px;
+}
+@media (max-width: 1485px) {
+#cadre-about{
+  display: grid;
+}
+#pic-personel {
+  align-self: center;
+  margin: auto;
+}
+
+
+
+}
+#des-personel{
+     text-align:justify;
+}
+#part-two{
+  height: auto;
+  width: 100%;
+  background-color:#f1f1f1;
+  text-align: center;
+  padding-top: 10px;
+  display: grid;
+}
+.progress-bar { 
+  margin: 1px;
+  width: 75%;
+  min-width: 200px;
+  height: 8px;
+ 
+  background-color: #aaa9a9;
+
+}
+
+#place-two{
+  width: 90%;
+margin: auto;
+padding: 20px;
+display: flex;
+
+}
+
+#skil{
+  float: left;
+  text-align: left;
+  width: 50%;
+  margin-left: 7.5%;
+}
+#skil h4 {
+  margin-bottom: 0px;
+}
+
+.pic-skil{
+  float: right;
+  height: 500px;
+  width: auto;
+  background-color: brown;
+  margin-right: 45%;
+ 
+}
+
+@media(max-width: 786px) {
+
+}
+
+#part-three{
+  height: auto;
+  width: 100%;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#part-four{
+  height: 550px;
+  width: 100%;
+background-image: url("../image/pic.jpg");
+background-size: cover;
+  padding-top: 10px;
+}
+
+/* -----------debut form css---------------- */
+
+
+.formul {
+	margin:10px auto;
+	max-width: 600px;
+	padding: 20px 12px 10px 20px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.formul li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.formul label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+  font-weight: bold;
+  color: white;
+}
+.formul input[type=text], 
+.formul input[type=date],
+.formul input[type=datetime],
+.formul input[type=number],
+.formul input[type=search],
+.formul input[type=time],
+.formul input[type=url],
+.formul input[type=email],
+textarea, 
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+.formul input[type=text]:focus, 
+.formul input[type=date]:focus,
+.formul input[type=datetime]:focus,
+.formul input[type=number]:focus,
+.formul input[type=search]:focus,
+.formul input[type=time]:focus,
+.formul input[type=url]:focus,
+.formul input[type=email]:focus,
+.formul textarea:focus, 
+.formul select:focus{
+	-moz-box-shadow: 0 0 8px #ffbd2f;
+	-webkit-box-shadow: 0 0 8px #ffbd2f;
+	box-shadow: 0 0 8px #ffbd2f;
+	border: 1px solid #ffbd2f;
+}
+.formul .field-divided{
+	width: 49%;
+}
+
+.formul .field-long{
+	width: 100%;
+}
+.formul .field-select{
+	width: 100%;
+}
+.formul .field-textarea{
+	height: 100px;
+}
+.formul input[type=submit], .formul input[type=button]{
+	background: #ffbd2f;
+	padding: 8px 15px 8px 15px;
+	border: none;
+  color:black; 
+  cursor: pointer;
+font-weight: bold;
+  width: 45%;
+margin-left: 25.5%;
+}
+.formul input[type=submit]:hover, .formul input[type=button]:hover{
+	background: #ffe23c;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.formul .required{
+	color:red;
+}
+
+
+
+/*---------------fin form css -------------------- */ 
+
+
+
+.footer {
+  width: 100%;
+  background-color: #222;
+  color: white;
+  text-align: center;
+height: 50px;
+padding: 20px 0px;
+}
+
+
+
+
+
+/* -----------------------------------------------------------------------------------------------------*/
+
+
+
+
